@@ -17,7 +17,7 @@ def getSideC():
     side_c = 0
     # TODO: print of the value for side c
     side_c = math.sqrt(side_a ** 2 + side_b ** 2)
-    print "Side c is:", side_c
+    print ("Side c is:", side_c)
 
 
 def printPosOrNeg(num):
@@ -28,27 +28,27 @@ def printPosOrNeg(num):
     """
     #pass # remove me
     if num >= 0:
-    	print "is positive"
+    	print ("is positive")
     else:
-    	print "is negative"
+    	print ("is negative")
 
 
 
 def main():
     """ Main method"""
-    print "===This is A-1==="
-    print "=======Your output======"
-    print "[*] Part 1 getSideC output: "
+    print ("===This is A-1===")
+    print ("=======Your output======")
+    print ("[*] Part 1 getSideC output: ")
     getSideC() # should print 5
-    print "\n"
-    print "[*] Part 2 printPosOrNeg output: "
+    print ("\n")
+    print ("[*] Part 2 printPosOrNeg output: ")
     for num in [1, -1, 2, 4]:
-        print "input ", num, " is :"
+        print ("input ", num, " is :")
         printPosOrNeg(num)
-    print "==========Done=========="
-    print "\n\n"
-    print "==========Answer========"
-    print "p1: 5  p2: is positive, is negative, is positive, is positive"
+    print ("==========Done==========")
+    print ("\n\n")
+    print ("==========Answer========")
+    print ("p1: 5  p2: is positive, is negative, is positive, is positive")
 
 
 if __name__ == '__main__':
